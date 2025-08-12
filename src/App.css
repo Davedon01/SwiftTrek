@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@keyframes lightning-glow {
+  0%, 100% {
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+  }
+  50% {
+    box-shadow: 0 0 20px 5px rgba(99, 102, 241, 0.8), /* blue-600 */
+                0 0 40px 10px rgba(79, 70, 229, 0.5), /* indigo-800 */
+                0 0 60px 15px rgba(128, 90, 213, 0.3); /* purple-800 */
+  }
+}
+
+.hover\:animate-lightning-glow:hover {
+  animation: lightning-glow 0.4s ease-in-out forwards;
+}
+
+.hover\:glow-shadow:hover {
+  box-shadow: 
+    0 0 10px rgba(59, 130, 246, 0.8),    /* from-blue-600 */
+    0 0 20px rgba(79, 70, 229, 0.6),     /* via-indigo-800 */
+    0 0 30px rgba(147, 51, 234, 0.5);    /* to-purple-800 */
+}
+
+.flip-container {
+  perspective: 1000px;
+}
+
+.flip-inner {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-container:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+}
+
+.flip-front {
+  background-color: #3b82f6; /* Blue */
+  color: white;
+}
+
+.flip-back {
+  background-color: #9333ea; /* Purple */
+  color: #ffd700; /* Gold icon */
+  transform: rotateY(180deg);
+}
+
+
+
