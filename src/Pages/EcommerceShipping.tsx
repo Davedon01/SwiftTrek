@@ -9,18 +9,16 @@ export default function EcommerceShipping() {
     <div className="bg-white text-gray-900">
       {/* Hero Section */}
       <section
-        className="relative h-[64vh] p-30 bg-fixed bg-center bg-cover bg-no-repeat text-white"
+        className="relative h-[64vh] flex items-center justify-center bg-fixed bg-center bg-cover text-white"
         style={{
           backgroundImage:
             "url('https://images.pexels.com/photos/4246102/pexels-photo-4246102.jpeg?auto=compress&cs=tinysrgb&w=1600')",
         }}
       >
         <div className="absolute inset-0 bg-black/50" />
-        <div className="relative max-w-6xl mx-auto px-4 text-center">
-          <h1 className="bg-gradient-to-br from-[#ffffff] via-[#d4e8ff] to-[#4aa8ff] bg-clip-text text-transparent text-5xl font-bold mb-5">
-            E-commerce Shipping Solutions
-          </h1>
-          <p className="max-w-3xl mx-auto text-lg">
+        <div className="relative max-w-5xl mx-auto px- text-center animate-fadeIn">
+          <h1 className="bg-gradient-to-br from-[#ffffff] via-[#d4e8ff] to-[#4aa8ff] bg-clip-text text-transparent text-5xl font-extrabold mb-5">E-commerce Shipping Solutions</h1>
+          <p className="max-w-2xl px-2 mx-auto text-lg">
             Streamlined, affordable, and reliable shipping tailored for online
             businesses — so you can focus on growth while we handle delivery.
           </p>
@@ -133,10 +131,10 @@ export default function EcommerceShipping() {
 
       {/* CTA */}
       <section className="bg-gradient-to-br from-blue-600 via-indigo-800 to-purple-800 text-white text-center py-16">
-        <h2 className="bg-gradient-to-br from-[#ffffff] via-[#d4e8ff] to-[#4aa8ff] bg-clip-text text-transparent text-5xl font-extrabold mb-5">
+        <h2 className="bg-gradient-to-br from-[#ffffff] via-[#d4e8ff] to-[#4aa8ff] bg-clip-text text-transparent text-5xl font-extrabold px-4 mb-5">
           Upgrade Your Store’s Shipping Experience
         </h2>
-        <p className="text-gray-300 mb-6">
+        <p className="text-gray-300 mb-6 px-4">
           Join thousands of e-commerce sellers who trust SwiftTrek to deliver
           on time, every time.
         </p>

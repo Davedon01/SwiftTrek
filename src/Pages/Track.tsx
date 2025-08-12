@@ -17,7 +17,7 @@ const Track = () => {
   return (
     <div className="bg-white text-gray-800">
       {/* Hero Section */}
-      <section className="relative h-[64vh] p-30 bg-fixed bg-center bg-cover bg-no-repeat text-white"
+      <section className="relative h-[64vh] flex items-center justify-center bg-fixed bg-center bg-cover text-white"
         style={{
           backgroundImage:
             `url(${custom})`,

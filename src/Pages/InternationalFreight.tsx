@@ -21,20 +21,13 @@ export default function InternationalFreight() {
     <div className="bg-white text-gray-900">
       {/* Hero Section */}
       <section
-        className="relative h-[64vh] p-30 bg-fixed bg-center bg-cover bg-no-repeat text-white"
-        style={{
-          backgroundImage: `url(${custom})`,
-        }}
+        className="relative h-[64vh] flex items-center justify-center bg-fixed bg-center bg-cover text-white"
+        style={{ backgroundImage: `url(${custom})` }}
       >
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
-
-        {/* Content */}
-        <div className="relative max-w-6xl mx-auto px-4 text-center animate-fadeIn">
-          <h1 className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent text-5xl font-extrabold mb-5">
-            International Freight Services
-          </h1>
-          <p className="max-w-3xl mx-auto text-lg text-gray-200">
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative max-w-5xl mx-auto px-4 text-center animate-fadeIn">
+          <h1 className="bg-gradient-to-br from-[#ffffff] via-[#d4e8ff] to-[#4aa8ff] bg-clip-text text-transparent text-5xl font-extrabold mb-5">International Freight Services</h1>
+          <p className="max-w-2xl mx-auto text-lg">
             Seamless global shipping — connecting continents with speed,
             security, and full customs support for your cargo.
           </p>
@@ -177,7 +170,7 @@ export default function InternationalFreight() {
 
       {/* CTA */}
       <section className="bg-gradient-to-br from-blue-600 via-indigo-800 to-purple-800 text-white text-center py-16">
-        <h2 className="bg-gradient-to-br from-[#ffffff] via-[#d4e8ff] to-[#4aa8ff] bg-clip-text text-transparent text-5xl font-extrabold mb-5">
+        <h2 className="bg-gradient-to-br from-[#ffffff] via-[#d4e8ff] to-[#4aa8ff] bg-clip-text text-transparent px-4 text-5xl font-extrabold mb-5">
           Ship Across Borders with Confidence
         </h2>
         <p className="max-w-2xl mx-auto mb-6 text-lg">

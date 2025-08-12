@@ -31,7 +31,7 @@ const Contact = () => {
     <div className="bg-white text-gray-800">
       {/* Hero Section */}
       <section
-        className="relative h-[64vh] p-30 bg-fixed bg-center bg-cover bg-no-repeat text-white"
+        className="relative h-[64vh] flex items-center justify-center bg-fixed bg-center bg-cover text-white"
         style={{
           backgroundImage: `url(${custom})`,
         }}
@@ -57,14 +57,14 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Info */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                <span className="text-blue-600">-</span>CONTACT INFORMATION
+              <h2 className="text-3xl font-bold text-blue-800 mb-8">
+                CONTACT INFORMATION
               </h2>
 
               <div className="space-y-6">
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                    MERTON LOGISTIC SERVICES
+                    SWIFTTREK LOGISTIC SERVICES
                   </h3>
                   <div className="space-y-2 text-gray-600">
                     <p>
@@ -96,7 +96,7 @@ const Contact = () => {
 
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">
+              <h2 className="text-3xl font-bold text-blue-800 mb-8">
                 Let's Talk And Find Your Solution
               </h2>
 

@@ -93,7 +93,7 @@ const ExpressDeliveryPage: React.FC = () => {
       >
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative max-w-5xl mx-auto px-4 text-center animate-fadeIn">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Express Delivery</h1>
+          <h1 className="bg-gradient-to-br from-[#ffffff] via-[#d4e8ff] to-[#4aa8ff] bg-clip-text text-transparent text-5xl font-extrabold mb-5">Express Delivery</h1>
           <p className="max-w-2xl mx-auto text-lg">
             Fast, reliable, and always on time. Our Express Delivery service gets your packages where they need to be — urgently and safely.
           </p>
@@ -186,7 +186,7 @@ const ExpressDeliveryPage: React.FC = () => {
 
       {/* Call to Action */}
       <section className="bg-gradient-to-br from-blue-600 via-indigo-800 to-purple-800 text-white py-12 text-center">
-        <h2 className="bg-gradient-to-br from-[#ffffff] via-[#d4e8ff] to-[#4aa8ff] bg-clip-text text-transparent text-5xl font-bold mb-5 italic">
+        <h2 className="bg-gradient-to-br from-[#ffffff] via-[#d4e8ff] to-[#4aa8ff] bg-clip-text text-transparent text-5xl font-bold mb-5 px-4 italic">
           Need It Delivered Today?
         </h2>
         <Button

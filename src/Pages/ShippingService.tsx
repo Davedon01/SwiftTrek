@@ -190,7 +190,7 @@ function ShippingService() {
 
       {/* Call to Action */}
       <section className="py-12 bg-gradient-to-br from-blue-600 via-indigo-800 to-purple-800 text-white text-center">
-        <h2 className="bg-gradient-to-br from-[#ffffff] via-[#d4e8ff] to-[#4aa8ff] bg-clip-text text-transparent text-5xl font-bold mb-5 italic">
+        <h2 className="bg-gradient-to-br from-[#ffffff] via-[#d4e8ff] to-[#4aa8ff] bg-clip-text text-transparent text-5xl font-bold mb-5 px-4 italic">
           Ready to Ship with SwiftTrek?
         </h2>
         <Button
